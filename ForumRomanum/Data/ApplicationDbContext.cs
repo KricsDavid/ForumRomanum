@@ -10,5 +10,9 @@ namespace ForumRomanum.Data
             : base(options)
         {
         }
+
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<Topic> Topics { get; set; }
+        public DbSet<Kategoria> Categories { get; set; }
     }
 }

@@ -9,5 +9,6 @@
         public string UserID { get; set; }
         public DateTime CreateDate { get; set; }
         public virtual ICollection<Post> Posts { get; set; }
+        public User User { get; set; }
     }
 }
