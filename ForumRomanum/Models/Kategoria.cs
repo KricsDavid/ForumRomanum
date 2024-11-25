@@ -8,6 +8,7 @@
         public int UserID { get; set; }
         public DateTime CreateDate { get; set; }
 
-       // public virtual ICollection<Topic> Topics { get; set; }
+        public virtual ICollection<Topic> Topics { get; set; }
+        public User User { get; set; }
     }
 }
