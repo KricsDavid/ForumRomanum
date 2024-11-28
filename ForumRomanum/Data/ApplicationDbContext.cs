@@ -1,8 +1,8 @@
-﻿using ForumRomanum.Models;
+﻿using ForumMotor_13BC_A.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace ForumRomanum.Data
+namespace ForumMotor_13BC_A.Data
 {
     public class ApplicationDbContext : IdentityDbContext<User>
     {
@@ -10,9 +10,8 @@ namespace ForumRomanum.Data
             : base(options)
         {
         }
-
         public DbSet<Post> Posts { get; set; }
         public DbSet<Topic> Topics { get; set; }
-        public DbSet<Kategoria> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

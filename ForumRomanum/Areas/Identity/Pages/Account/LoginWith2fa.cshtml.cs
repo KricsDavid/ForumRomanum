@@ -9,11 +9,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using ForumRomanum.Models;
+using ForumMotor_13BC_A.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 
-namespace ForumRomanum.Areas.Identity.Pages.Account
+namespace ForumMotor_13BC_A.Areas.Identity.Pages.Account
 {
     public class LoginWith2faModel : PageModel
     {

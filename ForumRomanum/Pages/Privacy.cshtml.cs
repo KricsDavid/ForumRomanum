@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ForumRomanum.Pages
+namespace ForumMotor_13BC_A.Pages
 {
     public class PrivacyModel : PageModel
     {

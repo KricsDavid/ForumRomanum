@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace ForumRomanum.Data.Migrations
+namespace ForumMotor_13BC_A.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
